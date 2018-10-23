@@ -1,0 +1,10 @@
+C:\Users\ivan_\Documents\Escuela\3AgoDic2018\SistemasOperativos\Code\ReadersWriters\ReadersWriters\ReadersWriters\obj\Debug\ReadersWriters.csprojAssemblyReference.cache
+C:\Users\ivan_\Documents\Escuela\3AgoDic2018\SistemasOperativos\Code\ReadersWriters\ReadersWriters\ReadersWriters\obj\Debug\ReadersWriters.Form1.resources
+C:\Users\ivan_\Documents\Escuela\3AgoDic2018\SistemasOperativos\Code\ReadersWriters\ReadersWriters\ReadersWriters\obj\Debug\ReadersWriters.Properties.Resources.resources
+C:\Users\ivan_\Documents\Escuela\3AgoDic2018\SistemasOperativos\Code\ReadersWriters\ReadersWriters\ReadersWriters\obj\Debug\ReadersWriters.csproj.GenerateResource.cache
+C:\Users\ivan_\Documents\Escuela\3AgoDic2018\SistemasOperativos\Code\ReadersWriters\ReadersWriters\ReadersWriters\obj\Debug\ReadersWriters.csproj.CoreCompileInputs.cache
+C:\Users\ivan_\Documents\Escuela\3AgoDic2018\SistemasOperativos\Code\ReadersWriters\ReadersWriters\ReadersWriters\bin\Debug\ReadersWriters.exe.config
+C:\Users\ivan_\Documents\Escuela\3AgoDic2018\SistemasOperativos\Code\ReadersWriters\ReadersWriters\ReadersWriters\bin\Debug\ReadersWriters.exe
+C:\Users\ivan_\Documents\Escuela\3AgoDic2018\SistemasOperativos\Code\ReadersWriters\ReadersWriters\ReadersWriters\bin\Debug\ReadersWriters.pdb
+C:\Users\ivan_\Documents\Escuela\3AgoDic2018\SistemasOperativos\Code\ReadersWriters\ReadersWriters\ReadersWriters\obj\Debug\ReadersWriters.exe
+C:\Users\ivan_\Documents\Escuela\3AgoDic2018\SistemasOperativos\Code\ReadersWriters\ReadersWriters\ReadersWriters\obj\Debug\ReadersWriters.pdb
