@@ -302,28 +302,28 @@
 
         #endregion
 
-        private System.Windows.Forms.TrackBar wrtrtrck;
-        private System.Windows.Forms.TrackBar rdrtrck1;
-        private System.Windows.Forms.TrackBar rdrtrck2;
-        private System.Windows.Forms.TrackBar rdrtrck3;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label wrtrlbl;
-        private System.Windows.Forms.Label rdrlbl1;
-        private System.Windows.Forms.Label rdrlbl2;
-        private System.Windows.Forms.Label rdrlbl3;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label wrtrstt;
-        private System.Windows.Forms.Label rdr1stt;
-        private System.Windows.Forms.Label rdr2stt;
-        private System.Windows.Forms.Label rdr3stt;
-        private System.Windows.Forms.TextBox logtxt;
-        private System.Windows.Forms.Label label9;
+        public System.Windows.Forms.TrackBar wrtrtrck;
+        public System.Windows.Forms.TrackBar rdrtrck1;
+        public System.Windows.Forms.TrackBar rdrtrck2;
+        public System.Windows.Forms.TrackBar rdrtrck3;
+        public System.Windows.Forms.Label label1;
+        public System.Windows.Forms.Label label2;
+        public System.Windows.Forms.Label label3;
+        public System.Windows.Forms.Label label4;
+        public System.Windows.Forms.Label wrtrlbl;
+        public System.Windows.Forms.Label rdrlbl1;
+        public System.Windows.Forms.Label rdrlbl2;
+        public System.Windows.Forms.Label rdrlbl3;
+        public System.Windows.Forms.Label label5;
+        public System.Windows.Forms.Label label6;
+        public System.Windows.Forms.Label label7;
+        public System.Windows.Forms.Label label8;
+        public System.Windows.Forms.Label wrtrstt;
+        public System.Windows.Forms.Label rdr1stt;
+        public System.Windows.Forms.Label rdr2stt;
+        public System.Windows.Forms.Label rdr3stt;
+        public System.Windows.Forms.TextBox logtxt;
+        public System.Windows.Forms.Label label9;
     }
 }
 
