@@ -15,6 +15,7 @@ namespace ReadersWriters
 
     public partial class Form1 : Form
     {
+
         public static volatile Semaphore SemX = new Semaphore(1, 1);
         public static volatile Semaphore WSem = new Semaphore(1, 1);
 
@@ -23,15 +24,26 @@ namespace ReadersWriters
         public static int[] Array = new int[4] { 1, 2, 3, 4};
         public static int readercount, readable=0, wrtr, rdr1,rdr2,rdr3, total;
         //public string[] readables = new string[3] {rdr1,rdr2,rdr3 };
+        public delegate void MyDelegate(Label myControl, string myArg2);
 
 
         public Form1()
         {
             InitializeComponent();
+            
+        }
+
+        public void DelegateMethod(Label myControl, string myCaption)
+        {
+           // myControl.Location = new Point(16, 16);
+          //  myControl.Size = new Size(80, 25);
+            myControl.Text = myCaption;
+           // this.Controls.Add(myControl);
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            
 
             Thread[] ThreadArray = new Thread[Array.Length];
 
@@ -61,8 +73,6 @@ namespace ReadersWriters
             ThreadArray[0] = new Thread(() => WriteMethod(0));
             ThreadArray[0].Start();
 
-
-
         }
 
 
@@ -75,11 +85,9 @@ namespace ReadersWriters
             {
                 WSem.WaitOne();
                 //start writing
-                Thread.Sleep(RH*wrtr);
+                Thread.Sleep(RH*(10-wrtr));
                 readable++;
                 total++;
-                     //wrtrlbl.Text = total;
-                
                 //end writing
                 WSem.Release();
             }
@@ -102,7 +110,7 @@ namespace ReadersWriters
                 SemX.Release();
 
                 //reader section
-                Thread.Sleep(RH*ridir);
+                Thread.Sleep(RH*(10-ridir));
                 readinternal++;
 
 
@@ -119,6 +127,8 @@ namespace ReadersWriters
 
 
             }
+
+            
         }
 
 
